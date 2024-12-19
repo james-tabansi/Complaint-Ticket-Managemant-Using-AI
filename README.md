@@ -32,21 +32,19 @@ Copy code
 - cd Complaint-Ticket-Managemant-Using-AI
 
 - Install dependencies:
-bash
- -- Copy code
- -- pip install -r requirements.txt
-- Place your support ticket data CSV file in the data/ directory.
-- Run the script to process support tickets and generate outputs:
-bash
-Copy code
-python main.py
-Check the processed data in data/output_support_ticket_data.csv.
-Project Structure
-data/: Folder containing input and output CSV files.
-myPrompts.py: Contains Zero-shot and Few-shot prompt templates.
-main.py: Core script for processing support tickets.
-requirements.txt: List of Python dependencies.
-Future Enhancements
-Add multi-language support for ticket processing.
-Integrate with real-time ticketing systems (e.g., Zendesk, Freshdesk).
-Deploy as a web application for broader accessibility.
+ - pip install -r requirements.txt
+ - Place your support ticket data CSV file in the data/ directory.
+ - Run the script to process support tickets and generate outputs:
+ - python main.py
+
+
+## Project Structure
+- data/: Folder containing input and output CSV files.
+- myPrompts.py: Contains Zero-shot and Few-shot prompt templates.
+- app.py: Core script for processing support tickets.
+- requirements.txt: List of Python dependencies.
+
+## Future Enhancements
+- Add multi-language support for ticket processing.
+- Integrate with real-time ticketing systems (e.g., Zendesk, Freshdesk).
+- Deploy as a web application for broader accessibility.
